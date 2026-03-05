@@ -50,7 +50,7 @@ echo "  Jira     : $JIRA_URL  (project: $JIRA_PROJECT_KEY)"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 
-python prd_to_jira_agent.py "$PRD_FILE"
+python3 prd_to_jira_agent.py "$PRD_FILE"
 
 echo ""
 echo "✅  Done. View your epic at: http://localhost:8080/"
